@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Noto Color Emoji';
+    src: url(assets/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url(assets/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {font-family: 'Noto';}
+.emoji {font-family: 'Noto Color Emoji';}
