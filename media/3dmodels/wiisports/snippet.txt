@@ -1,0 +1,1 @@
+<model-viewer src="wiisports-box.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="-46.05deg 51.37deg 10.01m" field-of-view="30deg" auto-rotate> </model-viewer>
