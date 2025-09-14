@@ -1,0 +1,1 @@
+<model-viewer src="maxwell.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1.03" camera-orbit="400.4deg 85.01deg 67.65m" field-of-view="30deg" exposure="1.21" shadow-softness="1" environment-image="legacy"> </model-viewer>
