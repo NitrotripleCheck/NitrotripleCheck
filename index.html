@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		<audio id="meowsound" src="media/sounds/meow.mp3"></audio>
+		<audio id="nokiasound" src="media/sounds/nokia.mp3"></audio>
 	</head>
 	<body>
 		<div class="container">
@@ -62,7 +63,9 @@
 				<p><a target="_blank" href="https://voxamps.com/product/pathfinder-10/"> <img src="media/logos/vox.png" alt="" height="15px"> VOX Pathfinder 10 Amplifier</a> <br> 
 				<a target="_blank" href="https://au.fender.com/products/affinity-series-stratocaster?variant=50385511416089"> <img src="media/logos/fender.png" alt="" height="15px"> Squire Affinity Series Stratocaster (Olympic White)</a> <br> 
 				<a target="_blank" href="https://schaller.info/en/s-locks-m/14010201"> <img src="media/logos/schaller.png" alt="" height="15px"> Schaller S-Locks Medium - Chrome</a></p>
-				<iframe src="media/3dmodels/nokia/index.html" allowtransparency frameborder="0" width="150px" height="150px" style="transform: rotate(30deg); position: absolute; right: 120px; bottom: -455px;"></iframe>
+				<div class="nokia-container">
+					<iframe src="media/3dmodels/nokia/index.html" allowtransparency frameborder="0" width="150px" height="150px" style="transform: rotate(30deg); position: absolute; right: 120px; bottom: -455px;"></iframe>
+				</div>
 			</section>
 		</div>
 
@@ -76,6 +79,12 @@
 		<script>
 			document.querySelector(".meow-container").addEventListener("click", function() {
     			var audio = document.getElementById("meowsound");
+    			audio.currentTime = 0; // This resets the audio to the beginning
+    			audio.play();
+			});
+
+			document.querySelector(".nokia-container").addEventListener("click", function() {
+    			var audio = document.getElementById("nokiasound");
     			audio.currentTime = 0; // This resets the audio to the beginning
     			audio.play();
 			});
